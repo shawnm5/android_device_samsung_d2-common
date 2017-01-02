@@ -1,5 +1,7 @@
 Copyright 2012 - The CyanogenMod Project
 
+Copyright 2017 - The LineageOS Project
+
 Device configuration for Galaxy S3 (Qualcomm Variants)
 =====================================
 
@@ -19,4 +21,4 @@ Camera  | 8 MP, 3264 x 2448 pixels
 Release Date | July 2012
 
 
-![Galaxy S3](http://wiki.cyanogenmod.org/images/a/a7/I9300.png "Galaxy S3")
+![Galaxy S3](http://i.imgur.com/D0sgNuG.png "Galaxy S3")

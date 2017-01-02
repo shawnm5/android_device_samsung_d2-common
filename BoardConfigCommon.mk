@@ -1,4 +1,6 @@
+#
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +31,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/d2-common/include
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Kernel
-TARGET_KERNEL_CONFIG        := cyanogen_d2_defconfig
+TARGET_KERNEL_CONFIG        := lineageos_d2_defconfig
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true

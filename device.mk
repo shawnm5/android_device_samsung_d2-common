@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -68,10 +69,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/d2-common/keylayout/sec_powerkey.kl:system/usr/keylayout/sec_powerkey.kl \
     device/samsung/d2-common/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
     device/samsung/d2-common/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl
-
-# Logo
-PRODUCT_COPY_FILES += \
-    device/samsung/d2-common/initlogo.rle:root/initlogo.rle
 
 # Media configuration
 PRODUCT_COPY_FILES += \
