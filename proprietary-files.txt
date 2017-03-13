@@ -1,6 +1,5 @@
 # CPU
 bin/mpdecision
-bin/thermald
 lib/libqc-opt.so
 
 # Audio
