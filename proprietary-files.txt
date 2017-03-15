@@ -14,28 +14,21 @@ vendor/firmware/bcm4334_semcosh.hcd
 
 # Camera
 bin/mm-qcamera-daemon
-cameradata/datapattern_420sp.yuv
-cameradata/datapattern_front_420sp.yuv
 lib/hw/camera.msm8960.so:lib/hw/camera.vendor.msm8960.so
+lib/libgemini.so
+lib/libimage-jpeg-enc-omx-comp.so
+lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
 lib/libmmcamera_statsproc30.so
 lib/libmmjpeg.so
 lib/libmmstillomx.so
-lib/libimage-jpeg-enc-omx-comp.so
-lib/libvdis.so
-lib/libgemini.so
 lib/liboemcamera.so
-lib/libchromatix_imx074_default_video.so
-lib/libchromatix_imx074_preview.so
-lib/libchromatix_ov2720_default_video.so
-lib/libchromatix_ov2720_preview.so
-lib/libchromatix_s5k6a3yx_default_video.so
-lib/libchromatix_s5k6a3yx_preview.so
-lib/libchromatix_s5k6a3yx_smart_stay.so
-lib/libchromatix_s5k6a3yx_vt_hd.so
-lib/libchromatix_s5k6a3yx_vt.so
+lib/libsecnativefeature.so
+lib/libvdis.so
 
 # Camera firmware
+cameradata/datapattern_420sp.yuv
+cameradata/datapattern_front_420sp.yuv
 cameradata/SlimISP_BH.bin
 cameradata/SlimISP_GC.bin
 cameradata/SlimISP_GD.bin
@@ -52,8 +45,14 @@ cameradata/SlimISP_ZH.bin
 cameradata/SlimISP_ZK.bin
 cameradata/SlimISP_ZM.bin
 
+# Chromatix
+lib/libchromatix_s5k6a3yx_default_video.so
+lib/libchromatix_s5k6a3yx_preview.so
+lib/libchromatix_s5k6a3yx_smart_stay.so
+lib/libchromatix_s5k6a3yx_vt_hd.so
+lib/libchromatix_s5k6a3yx_vt.so
+
 # DRM
-lib/libQSEEComAPI.so
 vendor/lib/mediadrm/libwvdrmengine.so|8d8f13b2b20db3fdeeca94fa03063d0bf5597718
 
 # NFC
@@ -109,6 +108,8 @@ lib/libakmd.so
 lib/libinvensense_hal.so
 lib/libmllite.so
 lib/libmlplatform.so
+lib/libmplmpu.so
+lib/libyamaha.so
 
 # Wi-Fi
 etc/wifi/bcmdhd_apsta.bin_b2
