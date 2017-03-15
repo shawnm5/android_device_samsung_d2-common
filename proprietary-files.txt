@@ -56,9 +56,6 @@ cameradata/SlimISP_ZM.bin
 lib/libQSEEComAPI.so
 vendor/lib/mediadrm/libwvdrmengine.so|8d8f13b2b20db3fdeeca94fa03063d0bf5597718
 
-# Media
-lib/libExtendedExtractor.so
-
 # NFC
 lib/hw/nfc.msm8960.so
 
