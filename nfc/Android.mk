@@ -1,4 +1,5 @@
 # Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2017 LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := nfc.default
+LOCAL_MODULE := nfc.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := nfc_hw.c
 LOCAL_SHARED_LIBRARIES := liblog libcutils
