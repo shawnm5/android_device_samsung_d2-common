@@ -1,6 +1,5 @@
 # CPU
 bin/mpdecision
-lib/libqc-opt.so
 
 # Audio
 lib/libacdbloader.so
@@ -52,14 +51,6 @@ lib/libchromatix_s5k6a3yx_smart_stay.so
 lib/libchromatix_s5k6a3yx_vt_hd.so
 lib/libchromatix_s5k6a3yx_vt.so
 
-# DRM
-vendor/lib/mediadrm/libwvdrmengine.so|8d8f13b2b20db3fdeeca94fa03063d0bf5597718
-
-# QMI
-lib/libqdi.so
-lib/libqdp.so
-vendor/lib/libdiag.so
-
 # GPS
 bin/irsc_util
 etc/sec_config
@@ -79,14 +70,11 @@ bin/qmuxd
 bin/radish
 bin/rild
 bin/rmt_storage
-lib/libatparser.so
-lib/libcordon.so
-lib/libfactoryutil.so
-lib/libomission_avoidance.so
 lib/libreference-ril.so
 lib/libsecril-client.so
 lib/libxml.so
 vendor/lib/libconfigdb.so
+vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libqcci_legacy.so
